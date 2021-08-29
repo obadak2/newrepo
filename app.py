@@ -24,7 +24,7 @@ def hello_world():
     # put application's code here
 
     # nltk.download()
-    filename = "C:\\Users\\lenovo\\Downloads\\Telegram Desktop\\ingredients - final (2).csv"
+    filename = "ingredients - final (2).csv"
 
     arr = request.form.get('title')
     print(arr)
