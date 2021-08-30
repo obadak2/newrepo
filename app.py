@@ -1,3 +1,6 @@
+import os
+
+import waitress
 from flask import Flask, jsonify, request
 import experta
 import csv
@@ -137,3 +140,5 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='8000')
+    port = int(os.environ.get('PORT', 33507))
+    waitress.serve(app, port=port)
