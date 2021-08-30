@@ -139,6 +139,6 @@ def hello_world():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port='8000')
+    app.run()
     port = int(os.environ.get('PORT', 33507))
     waitress.serve(app, port=port)
