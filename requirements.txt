@@ -1,7 +1,6 @@
 Babel
 backcall
 backports.functools-lru-cache
-backports.shutil-get-terminal-size
 bitarray @ file:///C:/ci/bitarray_1594751093906/work
 bkcharts
 bleach
