@@ -1,6 +1,5 @@
 Babel
 backcall
-backports.functools-lru-cache
 bitarray @ file:///C:/ci/bitarray_1594751093906/work
 bkcharts
 bleach
